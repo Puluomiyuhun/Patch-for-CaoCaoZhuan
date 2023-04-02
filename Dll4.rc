@@ -1,0 +1,230 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOGBAR, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 184
+    END
+
+    IDD_DIALOGBAR1, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 177
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOGBAR DIALOGEX 0, 0, 298, 185
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TAB1,"SysTabControl32",0x0,1,2,289,173
+    LTEXT           "",IDC_BACK,16,28,77,141,SS_SUNKEN
+    CONTROL         "超级加速",IDC_CHECK_SUPER0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,33,50,10
+    CONTROL         "取消对话",IDC_CHECK_SUPER1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,68,50,10
+    CONTROL         "取消地图文字",IDC_CHECK_SUPER2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,84,61,10
+    LTEXT           "加速项:",IDC_STATIC_SUPER,20,55,47,8
+    CONTROL         "取消延时指令",IDC_CHECK_SUPER3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,101,61,10
+    CONTROL         "取消R动作",IDC_CHECK_SUPER4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,118,50,10
+    CONTROL         "取消S动作/旁白",IDC_CHECK_SUPER5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,135,69,10
+    LTEXT           "",IDC_BACK2,96,28,80,140,SS_SUNKEN
+    CONTROL         "阶段加速",IDC_CHECK_STAGE0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,101,33,46,10
+    LTEXT           "加速项:",IDC_STATIC_STAGE1,101,55,28,8
+    CONTROL         "我军阶段",IDC_CHECK_STAGE1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,101,68,46,10
+    CONTROL         "友军阶段",IDC_CHECK_STAGE2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,101,85,46,10
+    CONTROL         "敌军阶段",IDC_CHECK_STAGE3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,101,103,46,10
+    EDITTEXT        IDC_EDIT_STAGE1,147,67,23,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STAGE2,147,84,23,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STAGE3,147,102,23,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "滚轮微调",IDC_CHECK_STAGE4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,101,121,46,10
+    EDITTEXT        IDC_EDIT_STAGE4,147,120,23,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "",IDC_BACK3,181,28,101,139,SS_SUNKEN
+    CONTROL         "齿轮加速",IDC_CHECK_GEAR0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,187,33,46,10
+    LTEXT           "速率调整：",IDC_STATIC_GEAR,187,54,39,8
+    CONTROL         "",IDC_SLIDER_GEAR,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,183,68,94,15
+    EDITTEXT        IDC_EDIT_GEAR1,211,91,40,14,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "-",IDC_BUTTON_GEAR1,194,91,13,14
+    PUSHBUTTON      "+",IDC_BUTTON_GEAR2,255,91,13,14
+    LTEXT           "",IDC_BACK4,17,29,264,138
+    CONTROL         "开启雨雪效果",IDC_CHECK_EFFECT0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,33,61,10
+    CONTROL         "雨效画面",IDC_CHECK_EFFECT1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,59,46,10
+    CONTROL         "雨天音效",IDC_CHECK_EFFECT2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,79,46,10
+    LTEXT           "小雨暗度:",IDC_STATIC_EFFECT1,20,100,39,8
+    LTEXT           "大雨暗度:",IDC_STATIC_EFFECT2,20,120,39,8
+    EDITTEXT        IDC_EDIT_EFFECT1,56,98,33,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_EFFECT2,56,119,33,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "雪效画面",IDC_CHECK_EFFECT3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,101,59,46,10
+    CONTROL         "雪天音效",IDC_CHECK_EFFECT4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,101,78,46,10
+    LTEXT           "雪天暗度:",IDC_STATIC_EFFECT3,101,100,40,8
+    LTEXT           "阴天暗度:",IDC_STATIC_EFFECT4,101,120,40,8
+    EDITTEXT        IDC_EDIT_EFFECT3,137,98,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EFFECT4,137,119,33,14,ES_AUTOHSCROLL
+    CONTROL         "大雨闪电",IDC_CHECK_EFFECT5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,180,59,46,10
+    LTEXT           "闪电间隔:",IDC_STATIC_EFFECT5,181,79,38,8
+    LTEXT           "动画间隔:",IDC_STATIC_EFFECT6,181,99,41,8
+    LTEXT           "动画半透:",IDC_STATIC_EFFECT7,181,119,41,8
+    EDITTEXT        IDC_EDIT_EFFECT5,217,77,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EFFECT6,217,98,33,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_EFFECT,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,213,116,56,15
+    CONTROL         "R场景雨雪",IDC_CHECK_EFFECT6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,154,50,10
+    PUSHBUTTON      "?",IDC_BUTTON_EFFECT,72,153,9,11
+    LTEXT           "",IDC_BACK7,15,28,267,139
+    LTEXT           "超级加速",IDC_STATIC_KEY1,26,38,38,8
+    LTEXT           "阶段加速",IDC_STATIC_KEY2,26,54,40,8
+    LTEXT           "齿轮加速",IDC_STATIC_KEY3,26,70,38,8
+    LTEXT           "齿轮加速+",IDC_STATIC_KEY4,26,86,43,8
+    LTEXT           "齿轮加速-",IDC_STATIC_KEY5,26,103,43,8
+    LTEXT           "快速存档",IDC_STATIC_KEY6,26,119,37,8
+    LTEXT           "快速读档",IDC_STATIC_KEY7,26,135,38,8
+    CONTROL         "",IDC_HOTKEY1,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,67,36,48,14
+    CONTROL         "",IDC_HOTKEY2,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,67,52,48,14
+    CONTROL         "",IDC_HOTKEY3,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,67,68,48,14
+    CONTROL         "",IDC_HOTKEY4,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,67,84,48,14
+    CONTROL         "",IDC_HOTKEY5,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,67,100,48,14
+    CONTROL         "",IDC_HOTKEY6,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,67,116,48,14
+    CONTROL         "",IDC_HOTKEY7,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,67,132,49,14
+    LTEXT           "一键隐藏",IDC_STATIC_KEY8,134,38,38,8
+    LTEXT           "一键出现",IDC_STATIC_KEY9,134,54,39,8
+    CONTROL         "",IDC_HOTKEY8,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,173,35,48,14
+    CONTROL         "",IDC_HOTKEY9,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,173,52,48,14
+    LTEXT           "",IDC_BACK6,16,28,266,138
+    CONTROL         "显示血条",IDC_CHECK_ROU1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,35,46,10
+    CONTROL         "显示状态",IDC_CHECK_ROU2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,50,46,10
+    CONTROL         "显示装备",IDC_CHECK_ROU3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,65,46,10
+    CONTROL         "显示伤害分析",IDC_CHECK_ROU4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,80,61,10
+    CONTROL         "显示地形状态",IDC_CHECK_ROU5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,95,61,10
+    CONTROL         "自动存档",IDC_CHECK_ROU6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,111,46,10
+    CONTROL         "显示策略习得等级",IDC_CHECK_ROU7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,127,76,10
+    CONTROL         "攻击方描边",IDC_CHECK_ROU8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,143,54,10
+    CONTROL         "显示行动顺序",IDC_CHECK_ROU9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,116,35,61,10
+    CONTROL         "显示AI仇恨",IDC_CHECK_ROU10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,116,50,54,10
+    CONTROL         "显示危险区域",IDC_CHECK_ROU11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,116,65,61,10
+    CONTROL         "取消0~4快捷键",IDC_CHECK_ROU12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,208,35,66,10
+    CONTROL         "取消5~g快捷键",IDC_CHECK_ROU13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,208,50,66,10
+    LTEXT           "",IDC_BACK5,16,28,266,138
+    CONTROL         "暴击不语",IDC_CHECK_Opt1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,36,46,10
+    CONTROL         "省略攻击动作",IDC_CHECK_Opt2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,54,61,10
+    CONTROL         "buff固定3回合",IDC_CHECK_Opt3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,72,66,10
+    CONTROL         "取消伤害浮动",IDC_CHECK_Opt4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,91,61,10
+    LTEXT           "残血显示血条:",IDC_STATIC_Opt1,108,36,57,8
+    LTEXT           "功勋调整额度:",IDC_STATIC_Opt2,108,55,57,8
+    EDITTEXT        IDC_EDIT_Opt1,162,34,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Opt2,162,54,26,14,ES_AUTOHSCROLL
+    CONTROL         "Ctrl加速改Shift",IDC_CHECK_Opt5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,110,75,10
+    CONTROL         "快捷键存读档",IDC_CHECK_Opt6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,129,61,10
+    CONTROL         "过关卸载功勋",IDC_CHECK_Opt7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,147,61,10
+    CONTROL         "回合结束不询",IDC_CHECK_Opt8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,108,72,61,10
+    CONTROL         "自动结束回合",IDC_CHECK_Opt9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,108,90,61,10
+    CONTROL         "战前换位",IDC_CHECK_Opt10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,108,109,46,10
+    CONTROL         "战前仓库",IDC_CHECK_Opt11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,108,128,46,10
+    CONTROL         "仓管不语",IDC_CHECK_Opt12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,108,147,46,10
+    CONTROL         "集气1 脸黑补偿",IDC_CHECK_Opt13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,35,69,10
+    CONTROL         "集气2 脸黑补偿+",IDC_CHECK_Opt14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,53,73,10
+    CONTROL         "集气3 传统",IDC_CHECK_Opt15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,70,54,10
+    CONTROL         "集气4 叠概率",IDC_CHECK_Opt16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,88,62,10
+    CONTROL         "每关清气",IDC_CHECK_Opt17,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,108,46,10
+    CONTROL         "亡者不鞭",IDC_CHECK_Opt18,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,127,46,10
+    CONTROL         "显示集气值",IDC_CHECK_Opt19,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,145,54,10
+END
+
+IDD_DIALOGBAR1 DIALOGEX 0, 0, 286, 180
+STYLE DS_SETFONT | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "随机我军兵种",IDC_CHECK_RAND1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,17,61,10
+    CONTROL         "随机敌友兵种",IDC_CHECK_RAND2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,34,61,10
+    CONTROL         "随机对象恢复普通造型",IDC_CHECK_RAND3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,51,91,10
+    CONTROL         "文官mp补偿（50）",IDC_CHECK_RAND4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,69,77,10
+    CONTROL         "随机获得宝物",IDC_CHECK_RAND5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,87,61,10
+    CONTROL         "随机个人天赋（慎选）",IDC_CHECK_RAND6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,105,91,10
+    PUSHBUTTON      "开始随机！",IDC_BUTTON_RAND1,225,150,50,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOGBAR AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOGBAR1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
